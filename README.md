@@ -1,9 +1,6 @@
-# Low level programming from crash (by Eirikgr)
-
-[!Cover Eirikrgr](./images/cover.png)
-
+<img src='./images/cover.png' width="800" height="1400">
 
 ## Course
 
-- Origins of C
+- [Origins of C](./blog/origins-of-c.md)
 
