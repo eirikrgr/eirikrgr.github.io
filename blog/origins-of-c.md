@@ -1,4 +1,5 @@
 # Origins of C
+-
 
 C fue desarrollado por Dennis Ritchie en Bell Labs a inicios de 1972 y 1973
 fue desarrollado como sucesor del lenguaje de programacion "B" de ahi que su nombre sea "C", 
