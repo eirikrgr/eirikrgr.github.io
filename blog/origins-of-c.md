@@ -24,15 +24,16 @@ Implementacion: GCC, Intel C, etc.
 
 ## Timeline of C language
 
-Year    Informal Name    Official Standar
-1972    First release    --
-1978    K&R C            --
-1989,1990 ANSI-C, C89, ISO C, C90    ANSI X3.159-1989 ISO/IEC 9899:1990
-1999    C99, C9X         ISO/IEC/9899:1999
-2011    C11, C1X         ISO/IEC/9899:2011
-2018    C17, C18         ISO/IEC/9899:2018
-2024    C23, C2X         ISO/IEC/9899:2024
-TBA     C2Y              --
+| Year | Informal Name | Official Standar|
+| --- | --- | --- |
+| 1972 | First release | none
+| 1978 | K&R C | none |
+| 1989,1990 ANSI-C, C89, ISO C, C90 | ANSI X3.159-1989 ISO/IEC 9899:1990
+| 1999 | C99, C9X | ISO/IEC/9899:1999
+| 2011 | C11, C1X | ISO/IEC/9899:2011
+| 2018 | C17, C18 | ISO/IEC/9899:2018
+| 2024 | C23, C2X | ISO/IEC/9899:2024
+| TBA | C2Y | none
 
 
 ## References about history of computer
