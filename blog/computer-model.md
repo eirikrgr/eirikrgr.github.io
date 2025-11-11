@@ -14,7 +14,7 @@ Un simple modelo de computacion puede ser el de una CPU conectada algun sistema 
 con la caracteristica de enviar instrucciones y datos.
 
 <br>
-<img src='./images/simple-cpu-model.png'>
+<img src='../images/simple-cpu-model.png'>
 
 
 Dentro de la CPU (Central processing unit), vemos algo llamado Register file (R0,R1,R2, etc), 
