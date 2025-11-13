@@ -39,7 +39,25 @@ La CPU interactúa con la memoria en bloques; no accede a bits individuales. Pue
 
 Durante la ejecucion de instrucciones como (load) o (store), la CPU emplea el (address bus) para transmitir un valor (una representacion numerica) que corresponde a una direccion en la region de la memoria de datos (Data memory), simultaneamente, el (Data bus) establece una conexion con el Registro de archivo, habilitando la transferencia de datos.
 
+<img src='../images/model-storage.png' width=230>
+
 Cuando la CPU no esta realizando operaciones como (load) o (store), el bus de direcciones (address bus) lleva un valor que corresponde a un codigo en la direccion de memoria. En este escenario, el valor presentado sobre el (Data Bus) es interpretado por la CPU como una instruccion, iniciando la ejecucion de una especifica operacion o multiples operaciones.
 
 Esa es la principal diferencia entre los datos y las operaciones de CPU.
+
+## Instrucciones
+
+CPUs modernas utilizan instrucciones que son de 32bits o 4 bytes de ancho. Esas instrucciones son compuestas de diferentes combinaciones de estados (on/off).
+
+**Ejemplo**
+
+<img src='../images/instructions.png'>
+
+Estos 32 bits (8 bit cada cuadro) pueden ser organizados para representar una operacion como la suma de dos registros o mover un valor del registro.
+
+La CPU puede determinar que operacion es requerida examinando la seccion conocida como OPCODE (Los cuadros amarillos). El OPCODE tiene 7 bits de ancho y abarca desde el bit 31 hasta el bit 25.
+
+El valor que tenga el OPCODE siempre correspondera a una operacion. En la imagen por ejemplo el OPCODE 0x0 denota la operacion "add" mientras que el 0x1 significa una operacion de "move", los demas parametros (Los cuadros que no son amarillos) son conocidos como operando (operand).
+
+Hasta aca termina la seccion de Modelo de sistema, el cual se exploro a nivel superificial.
 
