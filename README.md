@@ -1,6 +1,9 @@
-<img src='./images/cover.png' width="600" height="1000">
+<img src='./images/cover.png' width="500" height="700">
 
-# Course Low level Programming
+<br>
 
-- [Origins of C](./blog/origins-of-c.md)
-- [Computer Model](./blog/computer-model.md)
+# Low level Programming
+
+- [Origen de C](./blog/origins-of-c.md)
+- [Modelo de CPU](./blog/computer-model.md)
+- [Model Storage](./blog/storage-model.md)

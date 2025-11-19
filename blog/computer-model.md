@@ -1,4 +1,4 @@
-# Modelo de sistema de cómputo
+# Modelo de CPU basica
 
 Para programar en C, debes tener presentes la CPU, la memoria y cómo la CPU maneja los periféricos. C se creó para facilitar la vida del programador: en la década de 1970 era común programar directamente en ensamblador y era difícil; con C eso dejó de ser necesario en la mayoría de los casos.
 
